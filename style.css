@@ -1,0 +1,136 @@
+.navbar-brand {
+  width: 50%;
+}
+
+.banner {
+  margin-bottom: 50px;
+}
+
+.banner .buy-now-button{
+    background-color: black;
+    color: #ffffff;
+    padding: 10px 25px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.see-all{
+    color: #fcb605;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.smartphone{
+    margin-bottom: 50px;
+}
+
+.smartphone .card{
+    border: none;
+    box-shadow: 2px 2px 5px 6px rgba(204, 204, 204, 0.562); 
+    padding: 40px;
+    text-align: center;
+}
+
+.smartphone .card p{
+    color: gray;
+}
+
+.smartphone .card-footer{
+    background-color: #ffffff;
+    border: none;
+    
+}
+
+.smartphone .buy-now-button{
+    background-color: black;
+    color: #ffffff;
+    padding: 10px 25px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.laptop{
+    margin-bottom: 50px;
+}
+
+.laptop .card{
+    border: none;
+    box-shadow: 2px 2px 5px 6px rgba(204, 204, 204, 0.562); 
+    padding: 40px;
+    text-align: center;
+}
+
+.laptop .card-footer{
+    background-color: #ffffff;
+    border: none;
+}
+
+.laptop .buy-now-button{
+    background-color: black;
+    color: #ffffff;
+    padding: 10px 25px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.categories {
+  padding-bottom: 50px;
+}
+
+.categories .bag img,
+.categories .perfume img,
+.categories .shoe img {
+  padding: 50px;
+  border: none;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 2px 2px 5px 6px rgba(204, 204, 204, 0.562); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.categories .perfume {
+  margin-bottom: 20px;
+}
+
+.categories .shoe {
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .categories .bag {
+    margin-bottom: 10%;
+  }
+
+  .categories .pale {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .categories .bag {
+    transform: translateY(26%);
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
